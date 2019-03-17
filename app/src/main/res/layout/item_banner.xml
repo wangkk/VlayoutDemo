@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <!-- 轮播图区域 -->
+    <com.youth.banner.Banner
+        android:id="@+id/home_banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:image_scale_type="fit_xy"
+        app:indicator_drawable_selected="@drawable/banner_selected_radius"
+        app:indicator_drawable_unselected="@drawable/banner_unselected_radius"
+        app:indicator_height="8dp"
+        app:indicator_margin="4dp"
+        app:indicator_width="8dp"
+        app:is_auto_play="true" />
+</RelativeLayout>
